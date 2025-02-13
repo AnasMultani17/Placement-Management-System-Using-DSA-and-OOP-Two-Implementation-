@@ -57,6 +57,9 @@ The Placement Management System is designed to facilitate interactions between s
 2. Compile and run the `main.cpp` file:
 3. Run `main.cpp` file:
 ---
+## Collaboraters:
+1)Karmit Langhnoda
+2)Anas Multani
 
 ## License
 
