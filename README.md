@@ -58,8 +58,8 @@ The Placement Management System is designed to facilitate interactions between s
 3. Run `main.cpp` file:
 ---
 ## Collaboraters:
-1)Karmit Langhnoda
-2)Anas Multani
+1. Karmit Langhnoda
+2. Anas Multani
 
 ## License
 
