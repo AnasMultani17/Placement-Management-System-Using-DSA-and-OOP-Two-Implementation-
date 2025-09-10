@@ -1,0 +1,6 @@
+Username: 23bce188, Password: 123, Roll Number: 23bce188, Course: cse
+Name: Anas, Age: 23, Gender: male, Address: fdsd d, Hobby: dsa
+CGPA: 9.0, Skills: c++*java, Test Score: 60.0, Expected CTC: 500000.0, --------------------------------------------------
+Username: 23bce188, Password: 123, Roll Number: 23bce188, Course: cse
+Name: Anas Multani, Age: 23, Gender: male, Address: efewf, Hobby: fefefe
+CGPA: 6.0, Skills: gfewfew*ggerg*gerg, Test Score: 60.0, Expected CTC: 5000000.0, --------------------------------------------------

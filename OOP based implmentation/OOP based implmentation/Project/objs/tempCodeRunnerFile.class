@@ -1,0 +1,3 @@
+public void writeToCSV(BufferedWriter var1) throws IOException {
+      var1.write(this.rollNum + "," + this.cgpa + "," + this.skills + "," + this.testScore + "," + this.placed + "," + this.expectedCTC + "," + this.CTC + "\n");
+   }

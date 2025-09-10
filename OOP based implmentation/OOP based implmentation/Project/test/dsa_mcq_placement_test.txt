@@ -1,0 +1,70 @@
+1. What is the time complexity of searching an element in a balanced binary search tree (BST) with n nodes?
+A. O(n)
+B. O(log n)
+C. O(n log n)
+D. O(1)
+Answer: B
+
+2. Which of the following sorting algorithms has the best average-case performance?
+A. Quick Sort
+B. Bubble Sort
+C. Selection Sort
+D. Insertion Sort
+Answer: A
+
+3. In a circular queue of size n, if the front is at index 2 and the rear is at index 1, how many elements are in the queue?
+A. n
+B. n - 1
+C. 1
+D. n - 2
+Answer: B
+
+4. Which data structure is used in the depth-first search (DFS) algorithm?
+A. Queue
+B. Stack
+C. Heap
+D. Binary Search Tree
+Answer: B
+
+5. The time complexity of inserting a node at the beginning of a linked list is:
+A. O(1)
+B. O(n)
+C. O(log n)
+D. O(n log n)
+Answer: A
+
+6. Which of the following is NOT a principle of Object-Oriented Programming? 
+A. Encapsulation
+B. Abstraction
+C. Polymorphism
+D. Compilation
+Answer: D
+
+In inheritance, which keyword is used in JAVA to inherit a class? 
+A. inherits
+B. extends
+C. implements
+D. : (colon)
+Answer: B
+
+Which OOP concept allows multiple functions to have the same name but with different parameters?
+A. Abstraction
+B. Polymorphism
+C. Encapsulation
+D. Inheritance
+Answer: B
+
+Which access specifier allows a class member to be accessible only within its own class and derived classes? 
+A. Public
+B. Private
+C. Protected
+D. Static
+Answer: C
+
+In C++, which operator is used to allocate memory dynamically for an object? 
+A. alloc
+B. new
+C. malloc
+D. create
+Answer: B
+
