@@ -26,7 +26,7 @@ public class StudentAcademics {
     }
 
     private void writeToStudentDetailsFile() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("A:\\oop\\Project\\objs\\StudentDetails.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/resources/StudentDetails.txt", true))) {
             writer.write(this.rollNum + "," + this.cgpa + "," + this.testScore + "," + this.skills + "," + this.expectedCTC +"\n");
         } catch (IOException e) {
             System.out.println("An error occurred while writing to StudentDetails.txt.");
@@ -35,7 +35,7 @@ public class StudentAcademics {
     }
 
     private void writeToStudentTestFile() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("A:\\oop\\Project\\objs\\StudentTest.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/resources/StudentTest.txt", true))) {
             writer.write(this.rollNum + ":" + this.testScore + "\n");
         } catch (IOException e) {
             System.out.println("An error occurred while writing to StudentTest.txt.");
@@ -44,7 +44,7 @@ public class StudentAcademics {
     }
 
     private void writeToCSV() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("A:\\oop\\Project\\objs\\StudentAca.csv", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/resources/StudentAca.csv", true))) {
             writer.write(this.rollNum + "," + this.cgpa + "," + this.testScore + "," + this.skills + "," + this.expectedCTC +  "\n");
         } catch (IOException e) {
             System.out.println("An error occurred while writing to StudentAca.csv.");

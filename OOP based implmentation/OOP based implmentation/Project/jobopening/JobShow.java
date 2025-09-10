@@ -9,7 +9,7 @@ public class JobShow {
         String ans1 = "";
         boolean jobFound = false; 
       
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\objs\\StudentTest.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/resources/StudentTest.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 if (line.split(":")[0].trim().equals(rollNum)) {
@@ -30,7 +30,7 @@ public class JobShow {
             return;
         }
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\jobopening\\JobOpenings.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/resources/JobOpenings.txt"))) {
             String line;
             String ans = "";
             System.out.println("===============================================================");

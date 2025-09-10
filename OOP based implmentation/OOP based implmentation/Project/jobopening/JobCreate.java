@@ -26,7 +26,7 @@ public class JobCreate {
 
     public static void applyToJob(int jobid1, String rollNumber) 
     {
-        try (FileWriter writer = new FileWriter("A:\\oop\\Project\\jobopening\\JobApplications.txt", true)) 
+        try (FileWriter writer = new FileWriter(".\\Project\\jobopening\\JobApplications.txt", true)) 
         {
             writer.write(jobid1 + ":" + rollNumber + "\n");
             System.out.println("===============================================================");
@@ -42,7 +42,7 @@ public class JobCreate {
     public static void dispDetail(int jobid){
 
      List<String> applicants = new ArrayList<>(); //list will store the eligible students roll number 
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\jobopening\\JobApplications.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(".\\Project\\jobopening\\JobApplications.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String jobIdInFile = line.split(":")[0].trim();
@@ -64,7 +64,7 @@ public class JobCreate {
             System.out.println("===============================================================");
             return;
         }
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\objs\\StudentDetails.txt"))) 
+        try (BufferedReader reader = new BufferedReader(new FileReader(".\\Project\\objs\\StudentDetails.txt"))) 
         {
             String line;
             while ((line = reader.readLine()) != null)
@@ -107,7 +107,7 @@ public class JobCreate {
         }
     }
     public static void shortlistStudents(int jobId, int n) {
-    try (FileWriter writer = new FileWriter("A:\\oop\\Project\\jobopening\\shortlisted.txt", true)) 
+    try (FileWriter writer = new FileWriter(".\\Project\\jobopening\\shortlisted.txt", true)) 
     {
         Scanner sc = new Scanner(System.in);
         writer.write("Job ID: " + jobId + "\n");
@@ -135,7 +135,7 @@ public class JobCreate {
 }
 
     public static void viewShortlisted(int jobId) {
-    try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\jobopening\\shortlisted.txt"))) {
+    try (BufferedReader reader = new BufferedReader(new FileReader(".\\Project\\jobopening\\shortlisted.txt"))) {
         String line;
         boolean jobFound = false;
 
@@ -173,7 +173,7 @@ public class JobCreate {
 
     
    public static void hireStudent(int jobId, String rollNumber, double ctc) {
-    try (FileWriter writer = new FileWriter("A:\\oop\\Project\\jobopening\\hiredStudents.txt", true)) {
+    try (FileWriter writer = new FileWriter("src/resources/hiredStudents.txt", true)) {
         writer.write("Job ID: " + jobId + " - Hired Roll Number: " + rollNumber + " - CTC: " + ctc + "\n");
         System.out.println("===============================================================");
         System.out.println("Student " + rollNumber + " has been hired for Job ID " + jobId + " with CTC: " + ctc);
@@ -184,7 +184,7 @@ public class JobCreate {
     }        
 }
     public void saveJobDetails() {
-        try (FileWriter writer = new FileWriter("A:\\oop\\Project\\jobopening\\JobOpenings.txt", true)) {
+        try (FileWriter writer = new FileWriter("src/resources/JobOpenings.txt", true)) {
             writer.write("Minimum Test Score: " + mintest + "\n");
             writer.write("Job ID: " + jobid + "\n");
             writer.write("Job Title: " + jobname + "\n");

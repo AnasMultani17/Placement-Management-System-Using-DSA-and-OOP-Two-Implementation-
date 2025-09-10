@@ -7,7 +7,7 @@ import java.io.IOException;
 public class UserLogin {
     public boolean validateLogin(String username, String password) 
     {
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\login\\usermanager.txt"))) 
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/resources/usermanager.txt"))) 
         {
             String line;
             while ((line = reader.readLine()) != null) 

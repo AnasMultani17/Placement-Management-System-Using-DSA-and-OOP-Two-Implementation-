@@ -16,7 +16,7 @@ public class user {
         writeFile();
     }
     public void writeFile() {
-        String filename = "A:\\oop\\Project\\login\\usermanager.txt"; 
+        String filename = "src/resources/usermanager.txt"; 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename, true))) {
             writer.write(getUsername() + ":" + getPassword() + "\n");
             System.out.println("===============================================================");

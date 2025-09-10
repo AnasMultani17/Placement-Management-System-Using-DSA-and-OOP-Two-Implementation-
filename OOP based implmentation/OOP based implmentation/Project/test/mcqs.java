@@ -11,7 +11,7 @@ public class mcqs {
     public static float giveTest() {
         int score = 0;
         int totalQue = 0;       
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\test\\dsa_mcq_placement_test.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/resources/dsa_mcq_placement_test.txt"))) {
             String line;
             String ans = "";
 

@@ -1,8 +1,8 @@
 import java.io.*;
-import objs.*;
-import login.*;
-import jobopening.*;
 import java.util.*;
+import jobopening.*;
+import login.*;
+import objs.*;
 
 public class index {
     static Scanner sc = new Scanner(System.in);
@@ -137,13 +137,13 @@ public class index {
         StudentAcademics sa = new StudentAcademics(roll, cgpa, skl, ctc);
 
         Student stu = new Student(ss, sp, sa);
-        stu.saveAllDetailsToFile("A:\\oop\\Project\\objs\\StudentDetailsMain.txt");
+        stu.saveAllDetailsToFile("src/resources/StudentDetailsMain.txt");
         System.out.println("Signup successful! You can now log in.");
         studentLoggedIn = true;
     }
 
     private static boolean isUsernameTaken(String uname) {
-        try (BufferedReader br = new BufferedReader(new FileReader("A:\\oop\\Project\\login\\usermanager.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/resources/usermanager.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (line.split(":")[0].trim().equals(uname)) {

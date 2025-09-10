@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class PlacedStudent {
     public static void genReport() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("A:\\oop\\Project\\jobopening\\hiredStudents.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/resources/hiredStudents.txt"))) {
             String line;
             System.out.println("===============================================================");
             System.out.println("----- Placed Students Report -----");
