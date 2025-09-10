@@ -1,4 +1,0 @@
-
-Username: 23bce188, Password: 123, Roll Number: 23bce188, Course: cse
-Name: Anas , Age: 19, Gender: Male, Address: Harsiddhi, Hobby: Sports
-CGPA: 9.15, Skills: C++*java*python*webdev*CSS*HTML, Test Score: 60.0, Expected CTC: 1300000.0, --------------------------------------------------

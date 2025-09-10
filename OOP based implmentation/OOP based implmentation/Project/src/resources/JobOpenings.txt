@@ -1,6 +1,0 @@
-Minimum Test Score: 50.0
-Job ID: 456
-Job Title: sde
-Description: jkjk
-Salary: 300000
-

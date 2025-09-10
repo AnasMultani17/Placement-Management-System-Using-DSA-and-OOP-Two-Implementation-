@@ -1,0 +1,9 @@
+Username: 23bce188, Password: 123, Roll Number: 23bce188, Course: cse
+Name: Anas, Age: 18, Gender: male, Address: har, Hobby: Sports
+CGPA: 9.15, Skills: c++*java, Test Score: 0, Expected CTC: 500000, --------------------------------------------------
+Username: 23bce157, Password: 123, Roll Number: 23bce157, Course: cse
+Name: Karmit, Age: 19, Gender: male, Address: harsiddhi, Hobby: hello
+CGPA: 9.15, Skills: c++*java, Test Score: 0, Expected CTC: 900000, --------------------------------------------------
+Username: 23bce161, Password: 123, Roll Number: 23bce161, Course: cse
+Name: mahin, Age: 19, Gender: male, Address: hello, Hobby: hello
+CGPA: 9.15, Skills: c++*java, Test Score: 0, Expected CTC: 900000, --------------------------------------------------
