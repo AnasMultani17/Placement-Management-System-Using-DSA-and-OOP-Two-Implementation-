@@ -3,7 +3,7 @@
 
 This repository contains two implementations of a **Placement Management System**, developed using different approaches and technologies:
 
-1. **OOP-based Implementation (Java)**  
+1. **OOP-based Implementation (C++)**  
 2. **DSA-based Implementation (C++)**
 
 ## Overview
@@ -12,7 +12,7 @@ The Placement Management System is designed to facilitate interactions between s
 
 ---
 
-## 1. OOP-Based Implementation (Java)
+## 1. OOP-Based Implementation (C++)
 
 ### Key Features:
 - **Student and Company Management:**
@@ -26,16 +26,6 @@ The Placement Management System is designed to facilitate interactions between s
   - Students can check their selection status or schedule interviews.
 - **Data Handling:**
   - Utilized Object-Oriented Programming principles with modularized classes for better organization and maintainability.
-  
-### How to Run:
-1. Navigate to the Java project directory.
-2. Compile and run the `Main.java` file:
-   ```bash
-   javac Main.java
-   java Main
-   ```
-
----
 
 ## 2. DSA-Based Implementation (C++)
 
@@ -52,11 +42,7 @@ The Placement Management System is designed to facilitate interactions between s
   - Companies can create default or custom tests for job applications.
   - Students can view job details and track their applications.
   
-### How to Run:
-1. Navigate to the C++ project directory.
-2. Compile and run the `main.cpp` file:
-3. Run `main.cpp` file:
----
+
 ## Collaboraters:
 1. Karmit Langhnoda
 2. Anas Multani
